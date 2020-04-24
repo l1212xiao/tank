@@ -11,7 +11,9 @@ import com.mashibing.tank.net.Client;
 import com.mashibing.tank.net.TankJoinMsg;
 
 public class Tank {
+
     private static final int SPEED = 2;
+
     public static int WIDTH = ResourceMgr.goodTankU.getWidth();
 
     public static int HEIGHT = ResourceMgr.goodTankU.getHeight();
@@ -21,6 +23,7 @@ public class Tank {
     Rectangle rect = new Rectangle();
 
     private Random random = new Random();
+
     private int x, y;
 
     private Dir dir = Dir.DOWN;
@@ -70,10 +73,18 @@ public class Tank {
     }
 
     private void boundsCheck() {
-        if (this.x < 2) x = 2;
-        if (this.y < 28) y = 28;
-        if (this.x > TankFrame.GAME_WIDTH - Tank.WIDTH - 2) x = TankFrame.GAME_WIDTH - Tank.WIDTH - 2;
-        if (this.y > TankFrame.GAME_HEIGHT - Tank.HEIGHT - 2) y = TankFrame.GAME_HEIGHT - Tank.HEIGHT - 2;
+        if (this.x < 2) {
+            x = 2;
+        }
+        if (this.y < 28) {
+            y = 28;
+        }
+        if (this.x > TankFrame.GAME_WIDTH - Tank.WIDTH - 2) {
+            x = TankFrame.GAME_WIDTH - Tank.WIDTH - 2;
+        }
+        if (this.y > TankFrame.GAME_HEIGHT - Tank.HEIGHT - 2) {
+            y = TankFrame.GAME_HEIGHT - Tank.HEIGHT - 2;
+        }
     }
 
     public void die() {
@@ -93,7 +104,9 @@ public class Tank {
 
         Client.INSTANCE.send(new BulletNewMsg(b));
 
-        if (this.group == Group.GOOD) new Thread(() -> new Audio("audio/tank_fire.wav").play()).start();
+        if (this.group == Group.GOOD) {
+            new Thread(() -> new Audio("audio/tank_fire.wav").play()).start();
+        }
     }
 
     public Dir getDir() {
@@ -121,9 +134,13 @@ public class Tank {
     }
 
     private void move() {
-        if (!living) return;
+        if (!living) {
+            return;
+        }
 
-        if (!moving) return;
+        if (!moving) {
+            return;
+        }
 
         //save the oldDir for TankDirChangedMsg
         //oldDir = dir;
@@ -143,11 +160,13 @@ public class Tank {
                 break;
         }
 
-        if (this.group == Group.BAD && random.nextInt(100) > 95)
+        if (this.group == Group.BAD && random.nextInt(100) > 95) {
             this.fire();
+        }
 
-        if (this.group == Group.BAD && random.nextInt(100) > 95)
+        if (this.group == Group.BAD && random.nextInt(100) > 95) {
             randomDir();
+        }
 
         boundsCheck();
         //update rect
@@ -201,7 +220,6 @@ public class Tank {
         this.dir = dir;
     }
 
-
     public void setGroup(Group group) {
         this.group = group;
     }
@@ -221,6 +239,5 @@ public class Tank {
     public void setY(int y) {
         this.y = y;
     }
-
 
 }

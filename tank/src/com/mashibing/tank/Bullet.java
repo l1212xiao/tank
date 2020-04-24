@@ -11,6 +11,7 @@ import com.mashibing.tank.net.TankDieMsg;
  * 子弹的类
  */
 public class Bullet {
+
     private static final int SPEED = 6;
 
     public static int WIDTH = ResourceMgr.bulletD.getWidth();
@@ -18,6 +19,7 @@ public class Bullet {
     public static int HEIGHT = ResourceMgr.bulletD.getHeight();
 
     private UUID id = UUID.randomUUID();
+
     private UUID playerId;
 
     Rectangle rect = new Rectangle();
