@@ -7,19 +7,20 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 import com.mashibing.tank.ResourceMgr;
+import org.junit.Test;
 
-class ImageRotateTest {
+import static org.junit.Assert.assertNotNull;
+
+public class ImageRotateTest {
 
 	@Test
-	void test() {
+    public void test() {
 		try {
 			BufferedImage tankL = ImageIO.read(ResourceMgr.class.getClassLoader().getResourceAsStream("images/tankL.gif"));
 			tankL = rotateImage(tankL, 90);
-			Assertions.assertNotNull(tankL);
+			assertNotNull(tankL);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

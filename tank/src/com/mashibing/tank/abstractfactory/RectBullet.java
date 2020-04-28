@@ -49,7 +49,8 @@ public class RectBullet extends BaseBullet {
 		this.group = group;
 	}
 
-	public void paint(Graphics g) {
+	@Override
+    public void paint(Graphics g) {
 		if(!living) {
 			tf.bullets.remove(this);
 		}
@@ -87,7 +88,8 @@ public class RectBullet extends BaseBullet {
 		
 	}
 
-	public void collideWith(BaseTank tank) {
+	@Override
+    public void collideWith(BaseTank tank) {
 		if(this.group == tank.getGroup()) return;
 		
 		if(rect.intersects(tank.rect)) {
