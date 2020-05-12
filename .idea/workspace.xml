@@ -4,7 +4,108 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4040da57-bd5e-49a9-b5de-b15c76cb55a8" name="Default Changelist" comment="" />
+    <list default="true" id="4040da57-bd5e-49a9-b5de-b15c76cb55a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tank/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/src/test/ImageRotateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tank/src/test/java/ImageRotateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/src/test/ImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tank/src/test/java/ImageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/audio/explode.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/audio/tank_fire.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/audio/tank_move.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/audio/war1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Bullet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Bullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/DefaultFireStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Dir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Explode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/FireStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/FourDirFireStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/ImageUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/PropertyMgr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/ResourceMgr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Tank$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/TankFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/TankFrame$MyKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/TankFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/BaseBullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/BaseExplode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/BaseTank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/DefaultFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/GameFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/RectBullet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/RectBullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/RectExplode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/RectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/RectTank$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/com/mashibing/tank/abstractfactory/RectTank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/BadTank1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/BadTank2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/GoodTank1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/GoodTank2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/bulletD.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/bulletL.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/bulletR.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/bulletU.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/bulletU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/e9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/missileLD.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/missileLU.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/missileRD.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/missileRU.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/square0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/square1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/square2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/square3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/square4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/square5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/square6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tankD.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tankL.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tankLD.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tankLU.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tankR.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tankRD.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tankRU.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/images/tankU.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/test/ImageRotateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/target/classes/test/ImageTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +113,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="tank" />
@@ -43,6 +158,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1aWqe4HWY7tHikbCTXTCVjD9yEY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,8 +171,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/tank/src/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tank" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16277128" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -78,16 +197,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PropertyMgr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.tank.PropertyMgr" />
+      <module name="tank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.tank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ImageTest" />
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.ImageTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -96,11 +228,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.PropertyMgr" />
       <item itemvalue="JUnit.ImageTest.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PropertyMgr" />
         <item itemvalue="JUnit.ImageTest.test" />
       </list>
     </recent_temporary>
@@ -132,6 +266,10 @@
       <workItem from="1587365136218" duration="18463000" />
       <workItem from="1587695499303" duration="6921000" />
       <workItem from="1587888626099" duration="9175000" />
+      <workItem from="1588044796817" duration="13932000" />
+      <workItem from="1588213936853" duration="4147000" />
+      <workItem from="1588832754052" duration="2300000" />
+      <workItem from="1589186581937" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="update:formate 1">
       <created>1587627593575</created>
@@ -211,6 +349,10 @@
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1931" y="347" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587721013081" />
+    <state x="1845" y="461" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588044801565">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1845" y="461" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044801565" />
     <state x="1687" y="88" key="CommitChangelistDialog2" timestamp="1588044519421">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
@@ -220,60 +362,66 @@
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1380" y="143" width="1666" height="826" key="DiffContextDialog/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587373761966" />
-    <state width="1868" height="224" key="GridCell.Tab.0.bottom" timestamp="1588044420399">
+    <state width="1868" height="283" key="GridCell.Tab.0.bottom" timestamp="1588212003897">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1868" height="265" key="GridCell.Tab.0.bottom/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587972855470" />
-    <state width="1868" height="224" key="GridCell.Tab.0.bottom/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044420399" />
+    <state width="1868" height="283" key="GridCell.Tab.0.bottom/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588212003897" />
+    <state width="1868" height="283" key="GridCell.Tab.0.bottom/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588130499751" />
     <state width="1629" height="222" key="GridCell.Tab.0.bottom/0.23.1280.732/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587979350421" />
-    <state width="1868" height="224" key="GridCell.Tab.0.center" timestamp="1588044420399">
+    <state width="1868" height="283" key="GridCell.Tab.0.center" timestamp="1588212003896">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1868" height="265" key="GridCell.Tab.0.center/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587972855469" />
-    <state width="1868" height="224" key="GridCell.Tab.0.center/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044420399" />
+    <state width="1868" height="283" key="GridCell.Tab.0.center/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588212003896" />
+    <state width="1868" height="283" key="GridCell.Tab.0.center/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588130499750" />
     <state width="1629" height="222" key="GridCell.Tab.0.center/0.23.1280.732/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587979350413" />
-    <state width="1868" height="224" key="GridCell.Tab.0.left" timestamp="1588044420398">
+    <state width="1868" height="283" key="GridCell.Tab.0.left" timestamp="1588212003895">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1868" height="265" key="GridCell.Tab.0.left/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587972855468" />
-    <state width="1868" height="224" key="GridCell.Tab.0.left/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044420398" />
+    <state width="1868" height="283" key="GridCell.Tab.0.left/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588212003895" />
+    <state width="1868" height="283" key="GridCell.Tab.0.left/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588130499749" />
     <state width="1629" height="222" key="GridCell.Tab.0.left/0.23.1280.732/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587979350409" />
-    <state width="1868" height="224" key="GridCell.Tab.0.right" timestamp="1588044420399">
+    <state width="1868" height="283" key="GridCell.Tab.0.right" timestamp="1588212003897">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1868" height="265" key="GridCell.Tab.0.right/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587972855469" />
-    <state width="1868" height="224" key="GridCell.Tab.0.right/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044420399" />
+    <state width="1868" height="283" key="GridCell.Tab.0.right/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588212003897" />
+    <state width="1868" height="283" key="GridCell.Tab.0.right/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588130499750" />
     <state width="1629" height="222" key="GridCell.Tab.0.right/0.23.1280.732/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587979350419" />
     <state x="1665" y="133" key="Maven.ArtifactSearchDialog" timestamp="1586870861268">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1665" y="133" key="Maven.ArtifactSearchDialog/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1586870861268" />
-    <state x="1611" y="154" width="1125" height="897" key="SettingsEditor" timestamp="1588044345463">
+    <state x="1611" y="154" width="1125" height="897" key="SettingsEditor" timestamp="1588044936572">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1596" y="247" width="826" height="654" key="SettingsEditor/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587884265396" />
-    <state x="1611" y="154" width="1125" height="897" key="SettingsEditor/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044345463" />
+    <state x="1611" y="154" width="1125" height="897" key="SettingsEditor/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044936572" />
     <state x="1660" y="228" key="Vcs.Push.Dialog.v2" timestamp="1588044266440">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1660" y="228" key="Vcs.Push.Dialog.v2/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587724295791" />
     <state x="1660" y="228" key="Vcs.Push.Dialog.v2/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044266440" />
+    <state x="1880" y="344" key="chooseDestDirectoryDialog" timestamp="1588045119466">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1880" y="344" key="chooseDestDirectoryDialog/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588045119466" />
     <state x="1380" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586922462136">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1380" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1586922462136" />
-    <state x="2005" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588044522145">
+    <state x="2005" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589284546973">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
+    <state x="2005" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.727/1280.23.1920.1057@1280.23.1920.1057" timestamp="1589284546973" />
     <state x="2005" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587724273985" />
-    <state x="2005" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588044522145" />
+    <state x="2005" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588045596888" />
     <state x="1888" y="288" key="extract.method.dialog" timestamp="1587373035827">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1888" y="288" key="extract.method.dialog/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587373035827" />
-    <state x="1730" y="275" width="774" height="564" key="find.popup" timestamp="1587370456683">
+    <state x="1730" y="275" width="774" height="564" key="find.popup" timestamp="1589020569741">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state x="1730" y="275" width="774" height="564" key="find.popup/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587370456683" />
+    <state x="1730" y="275" width="774" height="564" key="find.popup/0.23.1280.729/1280.23.1920.1057@1280.23.1920.1057" timestamp="1589020569741" />
+    <state x="1730" y="275" width="774" height="564" key="find.popup/0.23.1280.730/1280.23.1920.1057@1280.23.1920.1057" timestamp="1588057516864" />
   </component>
 </project>
